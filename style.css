@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	padding: 56px 0;
+}
+
+.profile-pic {
+	/* margin: 0 200px 50px 200px; */
+}
+
+#profile {
+	width: 650px;
+	margin: auto;
+	text-align: center;
+	color: gray;
+}
+
+#profile h2 {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+#profile h3 {
+	padding-bottom: 20px;
+}
+
+#content {
+	width: 950px;
+	margin: auto;
+}
+#experience,
+#edu,
+#ref {
+	margin-top: 10px;
+}
+
+#skills h2,
+#experience h2,
+#edu h2,
+#ref h2 {
+	/* padding-bottom: 15px; */
+	text-align: left;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #f75d5d;
+}
+
+.b-remove {
+	font-weight: 100;
+}
+
+.b-remove2 {
+	font-weight: normal;
+}
+
+#skills h3 {
+	margin: auto;
+	background-color: white;
+	color: gray;
+	padding: 0 0 0 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+.detail {
+	margin: auto;
+	background-color: white;
+	color: gray;
+	padding: 0 0 0 5px;
+	font-family: 'Lato', sans-serif;
+}
+
+.detail ul {
+	padding-left: 26px;
+}
+.detail li {
+	padding-bottom: 2px;
+}
+
+.detail ul li:last-child {
+	padding-bottom: 0;
+}
+
+.detail h3,
+.detail h4 {
+	padding-top: 2px;
+}
+
+.box1,
+.box2 {
+	padding-top: 15px;
+}
