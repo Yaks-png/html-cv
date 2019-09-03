@@ -1,73 +1,164 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
         "http://www.w3.org/TR/html4/loose.dtd">
 <!DOCTYPE html>
-<html>
 <head>
-	<link type="text/css" rel="stylesheet" href="https://www.dropbox.com/s/trsldt0me90jzs8/resume.css"/> 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, intial-scale=1.0">
-	<title>Yaks CV</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> CV HTML</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <section id="welcome">
+        <div class="name-plate">
+            <h1>YAKUBU</h1>
+            <h1>Saidu Lawal.</h1>
+            
+        </div>
+    </section>
 
-	<h1 align="center"><b><u>YAKUBU SAIDU LAWAL</u></b></h1>
-	<p align="center">37 Toro Road, Federal Low-Cost Housing Estate, Bauchi State. <br><br>| Phone: +234 806-1606-574 | Email: <a href="yakubuslawal@gmail.com/" target="_blank">yakubuslawal@gmail.com</a>
-</p></br>
+    <section id="sections">
+        <section id="skills">
+            <h1>SKILLS</h1>
+            <ul>
+                <li>Frontend Developer (using HTML/CSS/JAVASCRIPT/ACTIONSCRIPT/SILVERLIGHT/JAVA(Applet)).</li>
+                <li>Backend Developer (using PHP/PYTHON/RUBY/JAVASCRIPT (NODE JS)/PERL/SQL(for db queries)/COFFEESCRIPT).</li>
+                <li>UI/UX Designer</li>
+                <li>Good Analytical Skills.</li>
+                <li>Fluent in English.</li>
+                <li>Fast Learner.</li>
+                <li>Computer Literate.</li>      
+        </section>
 
-<!--ABOUT MYSELF-->
-<div>
-	<h4>OBJECTIVE<hr></h4>
-	<p>An individual eager to learn and develop in that which can coach, mentor and develop my personality while bringing valuable perspectives or expertise to the company’s continuous progress.</p>
-</div>
+        <section id="education">
+            <h1>EDUCATION</h1>
+            <ul>
+                <li>December 2018 - December 2020 <br>
+                    Haverd University, USA - <em>MSc. Data Analysis</em></li>
+                <hr>
+                <li>September 2009 -  March 2015 <br>
+                    ABU Zaria, Kaduna State - <em>BSc Computer Science</em></li>
+                <hr>
+                <li>Febnuary 2003 - July 2009 <br>
+                    Nigeria-Turkish International Collegde (NTIC), Abuja - <em>First School Certificate and SSCE</em></li>
+            </ul>
+        </section>
 
-<!--SKILLS-->
-<div>
-	<h4>SKILLS<hr></h4>
-	<li>Problem solving.</li>
-	<li>Communication.</li>
-	<li>Graphics Design.</li>
-	<li>Front-End Development.</li>
-	<li>Back-End Development.</li>
-	<li>Information Technology (MS OFFICE, SIMULATION SOFTWARES).</li>
-	<li>Team Work.</li>
-	<li>Leadership.</li>
-</div>
+        <section id="hobbies">
 
-<!--EXPERIENCES-->
-	<div>
-		<h4>EXPERIENCES<hr></h4>
-		<p><strong>Yaksland Hub</strong>, (software development company - <i>CEO/Presidend.</i></p>
-		<p>January 2017 - Present</p>
+            <h1>HOBBIES</h1>
+            <ul>
+                <li>Research.</li>
+                <li>Coding.</li>
+                <li>Reading.</li>
+                <li>Writing.</li>
+                <li>Social Media.</li>
+                <li>Travelling.</li>
+            </ul>
+        </section>
 
-		<p><strong>Hospitals Management Board</strong>, Bauchi State — <i>Database Administrator.</i></p>
-		<p>SEPTEMBER 2010 - MAY 2015</p>
+        <section id="contact">
 
-		<p><strong>Samsung Assembly Plan</strong>, Abuja — <i> Smart Phone Assembler.</i></p>
-		<p>JUNE 2008 - NOVEMBER 2010</p>
-	</div>
+            <h1>CONTACT</h1>
+            <ul>
+                <div>
+                    <img width="30" src="./facebook.svg" alt="facebook page">
+                    <a href="https://fb.me/YaksLawal" target="blank">Facebook</a></div>
+
+                <div>
+                    <img width="30" src="./twitter.svg" alt="twitter link">
+                    <a href="https://twitter.com/YakubuSLawal" target="blank">Twitter</a></div>
+
+                <div>
+                    <img width="30" src="./gmail.svg" alt="email address">
+                    <a href="#contact" target="blank">yakubuslawal@gmail.com</a>
+                </div>
+
+                <div>
+                    <img width="30" src="./whatsapp.svg" alt="whatsapp image">
+                    <a href="https://api.whatsapp.com/send?phone=2348061606574" target="blank">Whatsapp</a></div>
+
+                <div>
+                    <img width="30" src="./dial-pad.svg" alt="whatsapp image">
+                    <a href="#contact" target="blank">+23408061606574</a></div>
+            </ul>
+        </section>
+    </section>
+    
+    <div id="modal-with-form" class="contact-modal hide-modal">
+        <div class="container">  
+                <form id="contact-form">
+                  <h3>You need more info?.</h3>
+                  <h4>Fill this form and get reply with in 24 hours!</h4>
+                  <span id="close-btn">&times;</span>
+                  <fieldset>
+                    <input type="text" id="name" required autofocus minlength="4" placeholder="Your Name">
+                    
+                  </fieldset>
+                  <fieldset>
+                    <input type="email" id="email" required placeholder="Your Email Here...">
+                    
+                  </fieldset>
+                  
+                 
+                  <fieldset>
+                    <textarea id="message" minlength="20" required placeholder="Type your message here..."></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" id="contact-submit">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+        <div class="contact-modal-open-btn">
+            <h2>Contact me.</h2>
+        </div>
+    <footer>&copy; 2019 by Yaksland. All rights reserved. Term of use  - Privacy Policy.	</footer>
+    <script src="test.js"></script>
+</body>
+
+</html>
+
+K
 
 
-<!--EDUCATION-->
-	<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!
+	
 		<h4>EDUCATION<hr></h4>
-			<p><strong>Abubakar Tafawa Balewa University</strong>, Bauchi State - <i> Bsc. Computer Science.</i></p>
-			<p>NOVEMBER 2010 - NOVEMBER 2015</p>
+			<pg>Abubakar Tafawa Balewa University</strong>, Bauchi State - <i> Bsc. Computer Science.</i></p>
+			
 
 			<p><strong>Kofar Idi Gov. Day Secondary School</strong>, Bauchi State — <i>West African School Certificate.</i></p>
-			<p>SEPTEMBER 2004 - SEPTEMBER 2010</p>
-	</div>
+			
+	
 
-<!--LANGUAGE-->
-	<aside>
-		<h4>LANGUAGE<hr></h4>
-		<p>English.</p>
-		<p>Hausa (Native Language).</p>
-		<p>Fulbe.</p>
-	</aside></br>
+
+	
+		<h4>LANGUAGE<><
+		<p>English.</p
+
+
+	
 
 <!--Copyright info-->
 	<div>
 		<footer><strong>&copy Yaks 2019</strong></footer>
 	</div>
-</body>
-</html>
+
+
